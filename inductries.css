@@ -181,18 +181,18 @@ font-size: 16px;
 font-weight: 600;
 line-height: 22px;
 text-align: center;
+/* height: 110px !important; */
 
 }
 .retail-button {
-    /* width: 204px !important; */
     width: auto !important;
-height: Fixed (36px)px;
 padding: 10px 20px 10px 20px;
 gap: 8px;
 border-radius: 8px 0px 0px 0px;
 opacity: 0px;
-margin-top: 100px !important;
-
+background-color: red !important;
+width: 204px !important;
+text-align: center !important;
 
 }
 .retail-button-div
@@ -511,7 +511,7 @@ display: none !important;
 
 
 
-@media (max-width:768px) {
+@media (max-width:767px) {
     .scope-header{
 font-size: 32px;
 font-weight: 600;
@@ -528,12 +528,15 @@ display: none !important;
     }
     .scopemobile-image{
         display: block !important;
+        margin-top: 20px !important;
+
     }
     .scope-main-card{
         display: flex;
         flex-direction: column;
         justify-content: center !important;
         margin-top: 50px !important;
+        border-radius: 20px !important;
     }
 }
 
@@ -591,7 +594,7 @@ display: none !important;
 }
 
 .expertise-card {
-    height: 220px !important;
+    height: auto !important;
     margin-bottom: 20px !important;
     border: 1px dashed #C4C4C4 !important;
     transition: transform 0.3s ease;
@@ -624,6 +627,53 @@ display: none !important;
     margin-bottom: 40px !important;
     color: #676968;
 }
+
+@media (max-width:768px) {
+    .expertise-card{
+
+    }
+    .Expertise-header{
+font-size: 32px;
+font-weight: 600;
+line-height: 32px;
+text-align: left;
+width: auto !important;
+background-color: red !important;
+
+    }
+    .Expertise-header-span {
+        color: #2CA068;
+        position: relative;
+    }
+    
+    .Expertise-header-span::after {
+        content: '';
+        position: absolute;
+        top: 60%;
+        margin-left: 10px;
+        width: 28px !important;
+        height: 3px !important;
+        border-radius: 50px !important;
+        background-color: #2CA068;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* end of Expertise section================================== */
 
