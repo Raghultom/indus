@@ -518,28 +518,22 @@ font-weight: 600;
 line-height: 40.22px;
 text-align: left;
 height: auto !important;
-margin-left: 10px !important;
-background-color: red;
 
     }
 
     .scope-image{
 height: 300px !important;
-background-color: yellow;
 display: none !important;
 
     }
     .scopemobile-image{
         display: block !important;
-        background-color: yellow !important;
     }
     .scope-main-card{
         display: flex;
         flex-direction: column;
         justify-content: center !important;
-        background-color: orange;
         margin-top: 50px !important;
-        background-color: red !important;
     }
 }
 
