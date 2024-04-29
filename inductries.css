@@ -664,6 +664,7 @@ text-align: left;
         height: 3px !important;
         border-radius: 50px !important;
         background-color: #2CA068;
+        display: none !important;
     }
 }
 
